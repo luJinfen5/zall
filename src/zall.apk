@@ -1,0 +1,11 @@
+# 1. 安装必要的开发工具
+- 安装 Android Studio
+- 安装 JDK
+- 安装 Android SDK
+
+# 2. 构建APK
+cd mobile
+./gradlew assembleDebug
+
+# 3. 生成的APK位置
+mobile/app/build/outputs/apk/debug/app-debug.apk
